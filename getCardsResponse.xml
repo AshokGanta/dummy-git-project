@@ -1,0 +1,50 @@
+<getCardsResponse>
+    <cardList>
+        <card>
+            <number>DA1312434</number>
+            <nickname type="String">Rusty's Debit Card</nickname>
+            <status type="String">Restricted</status>
+            <controlList>
+                <control>
+                    <name>ALL</name>
+                    <status>false</status>
+                </control>
+                <control>
+                    <name>INSTORE</name>
+                    <status>false</status>
+                </control>
+                <control>
+                    <name>ONLINE</name>
+                    <status>false</status>
+                </control>
+                <control>
+                    <name>ATM</name>
+                    <status>false</status>
+                </control>
+            </controlList>
+        </card>
+        <card>
+            <number type="String">DA34565434</number>
+            <nickname type="String">Rusty's Credit Card</nickname>
+            <status type="String">Locked</status>
+            <controlList>
+                <control>
+                    <name>ALL</name>
+                    <status>false</status>
+                </control>
+                <control>
+                    <name>INSTORE</name>
+                    <status>false</status>
+                </control>
+                <control>
+                    <name>ONLINE</name>
+                    <status>false</status>
+                </control>
+                <control>
+                    <name>ATM</name>
+                    <status>false</status>
+                </control>
+            </controlList>
+        </card>
+    </cardList>
+</getCardsResponse>
